@@ -5,6 +5,32 @@
     
 }
 
+/* Top Nav bar code */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    cursor:poiter;
+    padding: 0.5rem;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+
+
+    
+
+/*search button code */
+
 .container {
  border: 2px solid black;
  display: flex;
