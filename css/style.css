@@ -29,9 +29,9 @@ nav ul li:hover {
 
     
 
-/*search button code */
+/*search bar code */
 
-.container {
+.searchbar {
  border: 2px solid black;
  display: flex;
  flex-direction: row;
@@ -49,11 +49,11 @@ justify-content: flex-end;
     height: 70px;
 }
 
-.container div:nth-child(1) {
+.searchbar div:nth-child(1) {
     background-color: #f2f2f2;
 }
 
-.container div:nth-child(2) {
+.searchbar div:nth-child(2) {
     background-color:  white;
     color:black;
     width: 350px;
@@ -61,12 +61,14 @@ justify-content: flex-end;
     
 }
 
-.container div:nth-child(3) {
+.searchbar div:nth-child(3) {
     background-color: #1e90ff;
     width: 150;
     text-align: center;
+    
     font-size: 35px;
-    vertical-align: sub;
+    vertical-align: sub;  
+    align-content: center;
    
     
     
@@ -74,7 +76,27 @@ justify-content: flex-end;
 
 
 
+/*
+input{
+   
+    border: none;
+    
+    
+  }
 
+  input:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+  
+  button {
+    /* Just a little styling to make it pretty */
+    border:1px solid #1e90ff;
+    background:#1e90ff;
+    color:white;
+    /*
+   
+  }  
    
 
       
