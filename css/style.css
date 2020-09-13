@@ -1,16 +1,17 @@
 * {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: .5em;
-    color: white;
+    font-family: raleway;
+    font-size: 22px;
+    color: rgb(5, 13, 90);
     
 }
+
 
 /* Top Nav bar code */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: raleway;
+    
     display:flex;
     justify-content: flex-end;
 }
@@ -68,36 +69,5 @@ justify-content: flex-end;
     
     font-size: 35px;
     vertical-align: sub;  
-    align-content: center;
-   
-    
-    
+    align-content: center; 
 }
-
-
-
-/*
-input{
-   
-    border: none;
-    
-    
-  }
-
-  input:focus {
-    /* removing the input focus blue box. Put this on the form if you like. */
-    outline: none;
-  }
-  
-  button {
-    /* Just a little styling to make it pretty */
-    border:1px solid #1e90ff;
-    background:#1e90ff;
-    color:white;
-    /*
-   
-  }  
-   
-
-      
-
